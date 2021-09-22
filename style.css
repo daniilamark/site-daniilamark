@@ -38,6 +38,7 @@ h3 {
     margin-right: 10px;
     background: url("https://wallpaper.dog/large/5557995.jpg") no-repeat center center / cover;
 }
+
 .title-block::after{
     content: "";
     position: absolute;
@@ -48,21 +49,25 @@ h3 {
     background: #000;
     opacity: 0.5;
 }
+
 .title{
     position: relative;
     z-index: 1;
 }
+
 .userpic{
     display: flex;
     width: 20%;
     height: 100%;
     background: url("https://sun9-31.userapi.com/impg/kxctio5bNrzr9mlruQQIudUViBEYH8YmSNVPrw/9PUTp9ISIpQ.jpg?size=1079x1080&quality=96&sign=dd02dc9525ace0f480dc5d6b8a84c92a&type=album") no-repeat center center / cover;
 }
+
 .nav ul{
     display: flex;
     background: rgb(209, 204, 204);
     margin: 10px 0;
 }
+
 .nav li a{
     display: flex;
     padding: 20px;
@@ -72,12 +77,15 @@ h3 {
     transition: background .3s ease;
     border-right: 2px solid rgb(190, 190, 190);
 }
+
 .nav li a:hover{
     background: rgb(173, 173, 173);
 }
+
 .content-wrapper{
     display: flex;
 }
+
 .content{
     width: 70%;
     padding: 20px;
@@ -100,4 +108,24 @@ h3 {
 
 .skills li:hover{
     transform: translateX(10px);
+}
+
+.social li{
+    padding: 10px 0;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+.social li:hover{
+    transform: translateX(10px);
+}
+
+.sidebar_social{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar_social a{
+    text-decoration: none;
 }
